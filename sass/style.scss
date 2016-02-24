@@ -1,10 +1,9 @@
 // Style.scss
-// Table of contents for stylesheets
+// Table of contents for stylesheet
 // Uses Materialize.scss
 @charset "UTF-8";
 
 // Mixins
-// @import "components/prefixer";
 @import "components/mixins";
 @import "components/color";
 
@@ -14,7 +13,7 @@
 // Reset
 @import "components/normalize";
 
-// components
+// Components
 @import "components/global";
 @import "components/icons-material-design";
 @import "components/grid";
@@ -22,22 +21,26 @@
 @import "components/roboto";
 @import "components/typography";
 @import "components/cards";
-@import "components/toast";
+@import "components/materialbox";
+@import "components/form";
 @import "components/tabs";
 @import "components/tooltip";
 @import "components/buttons";
 @import "components/dropdown";
 @import "components/waves";
-@import "components/modal";
-@import "components/collapsible";
-@import "components/chips";
-@import "components/materialbox";
-@import "components/form";
-@import "components/table_of_contents";
-@import "components/sideNav";
-@import "components/preloader";
-@import "components/slider";
-@import "components/carousel";
-@import "components/date_picker/default.scss";
-@import "components/date_picker/default.date.scss";
-@import "components/date_picker/default.time.scss";
+
+//@import "components/modal";
+//@import "components/collapsible";
+//@import "components/chips";
+//@import "components/toast";
+//@import "components/table_of_contents";
+//@import "components/sideNav";
+//@import "components/preloader";
+//@import "components/slider";
+//@import "components/carousel";
+//@import "components/date_picker/default.scss";
+//@import "components/date_picker/default.date.scss";
+//@import "components/date_picker/default.time.scss";
+
+// Custom
+@import "_custom";
