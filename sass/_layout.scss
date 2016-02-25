@@ -79,10 +79,6 @@ body {
 		font-size: 0.7rem;
 	}
 }
-#js-expand {
-	position: absolute;
-    width: 150%;
-}
 
 .page-footer {
 	.spacing {
@@ -92,4 +88,14 @@ body {
 			font-weigh: 100;
 		}
 	}
+}
+#validation {
+	color: white;
+	font-weight: 700;
+}
+p.success {
+	color: $success-color;
+}
+p.error {
+	color: $warning-color;
 }
