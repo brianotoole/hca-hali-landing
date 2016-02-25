@@ -1,9 +1,9 @@
 /*** Colors ***/
-$primary-color: #0E6FB7; //HCA dark blue
+$primary-color: #00529c; //Halifax Health dark blue
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: #009EDB; //HCA light blue
+$secondary-color: #7da42e; //Halifax Health green
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
 $link-color: color("light-blue", "darken-1") !default;
