@@ -4,6 +4,14 @@ body {
 	//http://materializecss.com/color.html
 }
 
+h1 { @media #{$small-and-down} { font-size: 2.2rem } }
+h2 { @media #{$small-and-down} { font-size: 2rem; } }
+h3 { @media #{$small-and-down} { font-size: 1.8rem; } }
+h4 { @media #{$small-and-down} { font-size: 1.6rem; } }
+h5 { @media #{$small-and-down} { font-size: 1.4rem; } }
+h6 { @media #{$small-and-down} { font-size: 1.2rem; } }
+p { @media #{$small-and-down} { font-size: 1rem; } }
+
 // Header
 .site-header {
     display: flex;
@@ -73,6 +81,10 @@ body {
 
 // Sections
 
+.release {
+	margin-top: 2.5rem;
+}
+
 .video {
 	figcation {
 		font-style: italic;
@@ -90,12 +102,12 @@ body {
 	}
 }
 #validation {
-	color: white;
-	font-weight: 700;
+	font-size: 1em;
+	margin: 10px;
 }
-p.success {
+.success {
 	color: $success-color;
 }
-p.error {
-	color: $warning-color;
+.error {
+	color: $error-color;
 }
