@@ -1,8 +1,4 @@
 // Custom styles
-body {
-	background-color: color("grey", "lighten-5");
-	//http://materializecss.com/color.html
-}
 
 h1 { @media #{$small-and-down} { font-size: 2.2rem } }
 h2 { @media #{$small-and-down} { font-size: 2rem; } }
@@ -10,7 +6,6 @@ h3 { @media #{$small-and-down} { font-size: 1.8rem; } }
 h4 { @media #{$small-and-down} { font-size: 1.6rem; } }
 h5 { @media #{$small-and-down} { font-size: 1.4rem; } }
 h6 { @media #{$small-and-down} { font-size: 1.2rem; } }
-p { @media #{$small-and-down} { font-size: 1rem; } }
 
 // Header
 .site-header {
@@ -84,14 +79,6 @@ p { @media #{$small-and-down} { font-size: 1rem; } }
 .release {
 	margin-top: 2.5rem;
 }
-
-.video {
-	figcation {
-		font-style: italic;
-		font-size: 0.7rem;
-	}
-}
-
 .page-footer {
 	.spacing {
 		padding: 2em 0;
@@ -100,6 +87,28 @@ p { @media #{$small-and-down} { font-size: 1rem; } }
 			font-weigh: 100;
 		}
 	}
+}
+.card {
+	box-shadow: none;
+}
+.materialboxed {
+	padding: 12px;
+}
+figcaption {
+	margin-left: 12px;
+}
+form {
+	background-color: darken($primary-color, 7%);
+	padding: 3em 3em 1em!important;
+	border: 1px solid darken($primary-color, 10%);
+}
+footer.page-footer .footer-copyright {
+	margin-top: 4em;
+	background-color: darken($primary-color, 2%);
+}
+// Helpers
+.uppercase { 
+    text-transform: uppercase;
 }
 #validation {
 	font-size: 1em;

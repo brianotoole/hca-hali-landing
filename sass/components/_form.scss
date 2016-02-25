@@ -50,7 +50,7 @@ textarea.materialize-textarea {
   // General Styles
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid $input-border-color;
+  border-bottom: 3px solid $input-border-color;
   border-radius: 0;
   outline: none;
   height: 3rem;
@@ -67,7 +67,7 @@ textarea.materialize-textarea {
   // Disabled input style
   &:disabled, &[readonly="readonly"] {
     color: $input-disabled-color;
-    border-bottom: 1px dotted $input-disabled-color;
+    border-bottom: 3px dotted $input-disabled-color;
   }
   // Disabled label style
   &:disabled+label, &[readonly="readonly"]+label {
@@ -75,7 +75,7 @@ textarea.materialize-textarea {
   }
   // Focused input style
   &:focus:not([readonly]) {
-    border-bottom: 1px solid $input-focus-color;
+    border-bottom: 3px solid $input-focus-color;
     box-shadow: 0 1px 0 0 $input-focus-color;
   }
   // Focused label style
@@ -85,7 +85,7 @@ textarea.materialize-textarea {
   // Valid Input Style
   &.valid,
   &:focus.valid {
-    border-bottom: 1px solid $input-success-color;
+    border-bottom: 3px solid $input-success-color;
     box-shadow: 0 1px 0 0 $input-success-color;
   }
   // Custom Success Message
@@ -98,7 +98,7 @@ textarea.materialize-textarea {
   // Invalid Input Style
   &.invalid,
   &:focus.invalid {
-    border-bottom: 1px solid $input-error-color;
+    border-bottom: 3px solid $input-error-color;
     box-shadow: 0 1px 0 0 $input-error-color;
   }
   // Custom Error message
