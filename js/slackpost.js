@@ -72,10 +72,9 @@ function collectAndSend() {
 		sendPayloadToSlack();
 	}
 	
-//since we're not using WordPress, create the click function manually...
+//recreate wpc7 on.submit.ok create the click function manually...
 $('button[type="submit"').click(function() { 
-
-  if (document.getElementById("email").value.length == 0) { //should use more validation, but hey
+  if (document.getElementById("email").value.length == 0) {
 	document.getElementById("validation").innerHTML=("<p class=\"error\">Please fill out all fields above.</p>");
 	return false;
   } else {

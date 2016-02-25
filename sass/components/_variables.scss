@@ -1,9 +1,9 @@
 /*** Colors ***/
-$primary-color: #00529c; //H Health dark blue
+$primary-color: #062D7A;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: #009EDB; //H Health light blue
+$secondary-color: color("red", "darken-2") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
 $link-color: color("light-blue", "darken-1") !default;
