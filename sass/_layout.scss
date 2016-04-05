@@ -14,7 +14,22 @@ h6 { @media #{$small-and-down} { font-size: 1.2rem; } }
 		background-color: $primary-color;
 		color: white;
 		padding-bottom: 0.075em;
+		
+		.btn {
+			background-color: transparent;
+			box-shadow: none;
+			border: 2px solid white;
+			margin-top: 1em;
+			height: 42px;
+			line-height: 40px;
+		}
+		.xs12 {
+			@media #{$small-and-down} {
+				width: auto;
+			}
+		}
 	}
+	
 }
 // Header
 .title {
@@ -67,6 +82,8 @@ h6 { @media #{$small-and-down} { font-size: 1.2rem; } }
     		font-size: 1em;
     	}
     }
+    
+  
 }
 
 // Sections
@@ -86,11 +103,8 @@ h6 { @media #{$small-and-down} { font-size: 1.2rem; } }
 .card {
 	box-shadow: none;
 }
-.materialboxed {
-	padding: 22px 12px 0px 12px;
-}
-figcaption {
-	margin-left: 12px;
+video {
+	padding: 22px 12px 0;
 }
 form {
 	background-color: darken($primary-color, 7%);
@@ -102,7 +116,36 @@ footer.page-footer .footer-copyright {
 	margin-top: 4em;
 	background-color: darken($primary-color, 2%);
 }
+.boxed {
+    background-color: #ccc;
+    padding: 2px 0;
+    margin: -7px 12px 9px;
+}
+// Share buttons
+.share-buttons{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  
+  h5 {
+	  display: inline-block;
+  }
+  
+  li {
+	  display: inline-block;
+	  margin: 0 3px;
+  }
+  img {
+	  background: $primary-color;
+  }
+  
+}
+
+
 // Helpers
+.bold {
+	font-weight: 700;
+}
 .uppercase { 
     text-transform: uppercase;
 }
